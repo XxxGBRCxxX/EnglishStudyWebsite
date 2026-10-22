@@ -1,0 +1,17 @@
+{
+  "name": "聚合英语 · 单词学习",
+  "short_name": "聚合英语",
+  "description": "词汇 · 语法 · 影视 · 文学：跟读认知、听音选词、中译英、英译中、拼写等多模块背单词，带学习报告与错题本。",
+  "lang": "zh-CN",
+  "start_url": "./index.html",
+  "scope": "./",
+  "display": "standalone",
+  "orientation": "any",
+  "background_color": "#ffffff",
+  "theme_color": "#0ea5e9",
+  "icons": [
+    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any" },
+    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+  ]
+}

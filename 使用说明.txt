@@ -1,0 +1,23 @@
+﻿聚合英语 · 英语学习（网页版，可直接部署）
+========================================
+
+怎么用
+------
+· 本地打开：双击 聚合英语\index.html
+· 部署：把 聚合英语 里的内容上传到任意静态站点（用 https 更好，
+  剪贴板 API 在 http 下会退化成「选中群号手动复制」）
+
+群聊入口（两处）
+----------------
+1. 首次访问自动弹窗（只弹一次）：二维码 / 群号 1131347924（可复制）/
+   「点击链接加入群聊」→ https://qm.qq.com/q/4OQImGYN9K
+2. 右下角常驻「加入群聊」悬浮按钮：随时可再打开
+   （控制台也可以：openGroupInvite() 打开、resetGroupInvite() 重置「已弹过」）
+
+文件说明
+--------
+index.html            主页面
+group-invite.js       群聊弹窗 + 悬浮入口（自包含，无依赖）
+assets/qq-group.png   群二维码（本地图片，断网可扫）
+vocal.js / vocab.js / bank_ext_*.js   词库与逻辑
+sw.js / manifest.webmanifest          PWA

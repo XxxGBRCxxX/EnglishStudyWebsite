@@ -1,0 +1,35 @@
+这个文件不用上传，只是给人看的说明。
+
+上线文件\ 里就是「要传到服务器上」的全部文件，其它都不要传。
+传到服务器的网站根目录（与 index.html 同级）即可。
+
+生成时间：2026/10/20 17:07:33
+共 15 个文件，合计 4675804 字节（4.46 MB）
+
+清单：
+    1011810  index.html   主页面（含全部逻辑与样式）
+       5394  sw.js   离线缓存（Service Worker，断网也能打开；漏传就是线上 404）
+    3090239  vocal.js   词库 / 语法 / 影视 / 文学数据（index.html 引用）
+      24330  bank_ext_daily.js   拓展词库：日常用语 162 词
+      29279  bank_ext_cs.js   拓展词库：计算机常用词 164 词
+      22901  bank_ext_paper.js   拓展词库：论文常用词 128 词
+      32211  bank_ext_terms.js   拓展词库：专业术语 190 词
+      14647  bank_ext_campus.js   拓展词库：校园与考试 87 词
+     165745  feedback_qq.jpg   反馈与联系：QQ 好友码
+     114691  feedback_wechat.jpg   反馈与联系：微信好友码
+        722  manifest.webmanifest   PWA 清单（「添加到桌面」用）
+      27631  icon-192.png   桌面图标 192×192
+     107340  icon-512.png   桌面图标 512×512
+      26178  apple-touch-icon.png   iOS 主屏图标 180×180
+       2686  favicon-32.png   浏览器标签页图标 32×32
+
+不要上传：
+  vocab.js
+  宣传\
+  _*.html（44 个探针临时文件）
+  页面截图\（48 页 × 桌面端 / 手机端）
+  上线文件\ 本身
+
+说明：vocab.js 与 vocal.js 字节数完全相同，但 index.html 只引用 vocal.js，
+      所以 vocab.js 传上去也不会被用到（它只是本地留的一份备份）。
+      目录里那 44 个 _*.html 全是无头测试/截图用的探针页，与线上无关。
